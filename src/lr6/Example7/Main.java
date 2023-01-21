@@ -2,8 +2,6 @@ package lr6.Example7;
 
 import java.util.Scanner;
 
-
-
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -26,7 +24,6 @@ public class Main {
         System.out.println("]");
         scanner.close();
     }
-
     private static int[] getCharCodes(char[] arr) {
         int[] result = new int[arr.length];
         for (int i = 0; i < arr.length; i++) {
